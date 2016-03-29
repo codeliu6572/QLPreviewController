@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68698DA21CAA1605002EA1CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68698DA11CAA1605002EA1CE /* main.m */; };
+		68698DA51CAA1605002EA1CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68698DA41CAA1605002EA1CE /* AppDelegate.m */; };
+		68698DA81CAA1605002EA1CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68698DA71CAA1605002EA1CE /* ViewController.m */; };
+		68698DAB1CAA1605002EA1CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68698DA91CAA1605002EA1CE /* Main.storyboard */; };
+		68698DAD1CAA1605002EA1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68698DAC1CAA1605002EA1CE /* Assets.xcassets */; };
+		68698DB01CAA1605002EA1CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68698DAE1CAA1605002EA1CE /* LaunchScreen.storyboard */; };
+		68698DBB1CAA1605002EA1CE /* QLPreviewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68698DBA1CAA1605002EA1CE /* QLPreviewControllerTests.m */; };
+		68698DC61CAA1605002EA1CE /* QLPreviewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68698DC51CAA1605002EA1CE /* QLPreviewControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68698DB71CAA1605002EA1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68698D951CAA1604002EA1CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68698D9C1CAA1604002EA1CE;
+			remoteInfo = QLPreviewController;
+		};
+		68698DC21CAA1605002EA1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68698D951CAA1604002EA1CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68698D9C1CAA1604002EA1CE;
+			remoteInfo = QLPreviewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68698D9D1CAA1604002EA1CE /* QLPreviewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLPreviewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68698DA11CAA1605002EA1CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68698DA31CAA1605002EA1CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68698DA41CAA1605002EA1CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68698DA61CAA1605002EA1CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68698DA71CAA1605002EA1CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68698DAA1CAA1605002EA1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68698DAC1CAA1605002EA1CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68698DAF1CAA1605002EA1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68698DB11CAA1605002EA1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68698DB61CAA1605002EA1CE /* QLPreviewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLPreviewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68698DBA1CAA1605002EA1CE /* QLPreviewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLPreviewControllerTests.m; sourceTree = "<group>"; };
+		68698DBC1CAA1605002EA1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68698DC11CAA1605002EA1CE /* QLPreviewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLPreviewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68698DC51CAA1605002EA1CE /* QLPreviewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLPreviewControllerUITests.m; sourceTree = "<group>"; };
+		68698DC71CAA1605002EA1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68698D9A1CAA1604002EA1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68698DB31CAA1605002EA1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68698DBE1CAA1605002EA1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68698D941CAA1604002EA1CE = {
+			isa = PBXGroup;
+			children = (
+				68698D9F1CAA1605002EA1CE /* QLPreviewController */,
+				68698DB91CAA1605002EA1CE /* QLPreviewControllerTests */,
+				68698DC41CAA1605002EA1CE /* QLPreviewControllerUITests */,
+				68698D9E1CAA1604002EA1CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68698D9E1CAA1604002EA1CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68698D9D1CAA1604002EA1CE /* QLPreviewController.app */,
+				68698DB61CAA1605002EA1CE /* QLPreviewControllerTests.xctest */,
+				68698DC11CAA1605002EA1CE /* QLPreviewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68698D9F1CAA1605002EA1CE /* QLPreviewController */ = {
+			isa = PBXGroup;
+			children = (
+				68698DA31CAA1605002EA1CE /* AppDelegate.h */,
+				68698DA41CAA1605002EA1CE /* AppDelegate.m */,
+				68698DA61CAA1605002EA1CE /* ViewController.h */,
+				68698DA71CAA1605002EA1CE /* ViewController.m */,
+				68698DA91CAA1605002EA1CE /* Main.storyboard */,
+				68698DAC1CAA1605002EA1CE /* Assets.xcassets */,
+				68698DAE1CAA1605002EA1CE /* LaunchScreen.storyboard */,
+				68698DB11CAA1605002EA1CE /* Info.plist */,
+				68698DA01CAA1605002EA1CE /* Supporting Files */,
+			);
+			path = QLPreviewController;
+			sourceTree = "<group>";
+		};
+		68698DA01CAA1605002EA1CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68698DA11CAA1605002EA1CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68698DB91CAA1605002EA1CE /* QLPreviewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				68698DBA1CAA1605002EA1CE /* QLPreviewControllerTests.m */,
+				68698DBC1CAA1605002EA1CE /* Info.plist */,
+			);
+			path = QLPreviewControllerTests;
+			sourceTree = "<group>";
+		};
+		68698DC41CAA1605002EA1CE /* QLPreviewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68698DC51CAA1605002EA1CE /* QLPreviewControllerUITests.m */,
+				68698DC71CAA1605002EA1CE /* Info.plist */,
+			);
+			path = QLPreviewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68698D9C1CAA1604002EA1CE /* QLPreviewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68698DCA1CAA1605002EA1CE /* Build configuration list for PBXNativeTarget "QLPreviewController" */;
+			buildPhases = (
+				68698D991CAA1604002EA1CE /* Sources */,
+				68698D9A1CAA1604002EA1CE /* Frameworks */,
+				68698D9B1CAA1604002EA1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLPreviewController;
+			productName = QLPreviewController;
+			productReference = 68698D9D1CAA1604002EA1CE /* QLPreviewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68698DB51CAA1605002EA1CE /* QLPreviewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68698DCD1CAA1605002EA1CE /* Build configuration list for PBXNativeTarget "QLPreviewControllerTests" */;
+			buildPhases = (
+				68698DB21CAA1605002EA1CE /* Sources */,
+				68698DB31CAA1605002EA1CE /* Frameworks */,
+				68698DB41CAA1605002EA1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68698DB81CAA1605002EA1CE /* PBXTargetDependency */,
+			);
+			name = QLPreviewControllerTests;
+			productName = QLPreviewControllerTests;
+			productReference = 68698DB61CAA1605002EA1CE /* QLPreviewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68698DC01CAA1605002EA1CE /* QLPreviewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68698DD01CAA1605002EA1CE /* Build configuration list for PBXNativeTarget "QLPreviewControllerUITests" */;
+			buildPhases = (
+				68698DBD1CAA1605002EA1CE /* Sources */,
+				68698DBE1CAA1605002EA1CE /* Frameworks */,
+				68698DBF1CAA1605002EA1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68698DC31CAA1605002EA1CE /* PBXTargetDependency */,
+			);
+			name = QLPreviewControllerUITests;
+			productName = QLPreviewControllerUITests;
+			productReference = 68698DC11CAA1605002EA1CE /* QLPreviewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68698D951CAA1604002EA1CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CodingFire;
+				TargetAttributes = {
+					68698D9C1CAA1604002EA1CE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					68698DB51CAA1605002EA1CE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 68698D9C1CAA1604002EA1CE;
+					};
+					68698DC01CAA1605002EA1CE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 68698D9C1CAA1604002EA1CE;
+					};
+				};
+			};
+			buildConfigurationList = 68698D981CAA1604002EA1CE /* Build configuration list for PBXProject "QLPreviewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68698D941CAA1604002EA1CE;
+			productRefGroup = 68698D9E1CAA1604002EA1CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68698D9C1CAA1604002EA1CE /* QLPreviewController */,
+				68698DB51CAA1605002EA1CE /* QLPreviewControllerTests */,
+				68698DC01CAA1605002EA1CE /* QLPreviewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68698D9B1CAA1604002EA1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68698DB01CAA1605002EA1CE /* LaunchScreen.storyboard in Resources */,
+				68698DAD1CAA1605002EA1CE /* Assets.xcassets in Resources */,
+				68698DAB1CAA1605002EA1CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68698DB41CAA1605002EA1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68698DBF1CAA1605002EA1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68698D991CAA1604002EA1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68698DA81CAA1605002EA1CE /* ViewController.m in Sources */,
+				68698DA51CAA1605002EA1CE /* AppDelegate.m in Sources */,
+				68698DA21CAA1605002EA1CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68698DB21CAA1605002EA1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68698DBB1CAA1605002EA1CE /* QLPreviewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68698DBD1CAA1605002EA1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68698DC61CAA1605002EA1CE /* QLPreviewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68698DB81CAA1605002EA1CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68698D9C1CAA1604002EA1CE /* QLPreviewController */;
+			targetProxy = 68698DB71CAA1605002EA1CE /* PBXContainerItemProxy */;
+		};
+		68698DC31CAA1605002EA1CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68698D9C1CAA1604002EA1CE /* QLPreviewController */;
+			targetProxy = 68698DC21CAA1605002EA1CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68698DA91CAA1605002EA1CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68698DAA1CAA1605002EA1CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68698DAE1CAA1605002EA1CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68698DAF1CAA1605002EA1CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68698DC81CAA1605002EA1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68698DC91CAA1605002EA1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68698DCB1CAA1605002EA1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QLPreviewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Codeliu.QLPreviewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68698DCC1CAA1605002EA1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QLPreviewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Codeliu.QLPreviewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68698DCE1CAA1605002EA1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QLPreviewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Codeliu.QLPreviewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLPreviewController.app/QLPreviewController";
+			};
+			name = Debug;
+		};
+		68698DCF1CAA1605002EA1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QLPreviewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Codeliu.QLPreviewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLPreviewController.app/QLPreviewController";
+			};
+			name = Release;
+		};
+		68698DD11CAA1605002EA1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QLPreviewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Codeliu.QLPreviewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QLPreviewController;
+			};
+			name = Debug;
+		};
+		68698DD21CAA1605002EA1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QLPreviewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Codeliu.QLPreviewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QLPreviewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68698D981CAA1604002EA1CE /* Build configuration list for PBXProject "QLPreviewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68698DC81CAA1605002EA1CE /* Debug */,
+				68698DC91CAA1605002EA1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68698DCA1CAA1605002EA1CE /* Build configuration list for PBXNativeTarget "QLPreviewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68698DCB1CAA1605002EA1CE /* Debug */,
+				68698DCC1CAA1605002EA1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68698DCD1CAA1605002EA1CE /* Build configuration list for PBXNativeTarget "QLPreviewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68698DCE1CAA1605002EA1CE /* Debug */,
+				68698DCF1CAA1605002EA1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68698DD01CAA1605002EA1CE /* Build configuration list for PBXNativeTarget "QLPreviewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68698DD11CAA1605002EA1CE /* Debug */,
+				68698DD21CAA1605002EA1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68698D951CAA1604002EA1CE /* Project object */;
+}
