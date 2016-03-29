@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+//打开文件
+#import <QuickLook/QuickLook.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<QLPreviewControllerDataSource,QLPreviewControllerDelegate>
 
 
 @end

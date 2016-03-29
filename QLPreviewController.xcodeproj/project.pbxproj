@@ -15,6 +15,7 @@
 		68698DB01CAA1605002EA1CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68698DAE1CAA1605002EA1CE /* LaunchScreen.storyboard */; };
 		68698DBB1CAA1605002EA1CE /* QLPreviewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68698DBA1CAA1605002EA1CE /* QLPreviewControllerTests.m */; };
 		68698DC61CAA1605002EA1CE /* QLPreviewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68698DC51CAA1605002EA1CE /* QLPreviewControllerUITests.m */; };
+		68698DD61CAA1873002EA1CE /* iOS面试题.docx in Resources */ = {isa = PBXBuildFile; fileRef = 68698DD51CAA1873002EA1CE /* iOS面试题.docx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		68698DC11CAA1605002EA1CE /* QLPreviewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLPreviewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68698DC51CAA1605002EA1CE /* QLPreviewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLPreviewControllerUITests.m; sourceTree = "<group>"; };
 		68698DC71CAA1605002EA1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68698DD51CAA1873002EA1CE /* iOS面试题.docx */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iOS面试题.docx"; path = "../../../iOS面试题.docx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				68698DA41CAA1605002EA1CE /* AppDelegate.m */,
 				68698DA61CAA1605002EA1CE /* ViewController.h */,
 				68698DA71CAA1605002EA1CE /* ViewController.m */,
+				68698DD51CAA1873002EA1CE /* iOS面试题.docx */,
 				68698DA91CAA1605002EA1CE /* Main.storyboard */,
 				68698DAC1CAA1605002EA1CE /* Assets.xcassets */,
 				68698DAE1CAA1605002EA1CE /* LaunchScreen.storyboard */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68698DB01CAA1605002EA1CE /* LaunchScreen.storyboard in Resources */,
+				68698DD61CAA1873002EA1CE /* iOS面试题.docx in Resources */,
 				68698DAD1CAA1605002EA1CE /* Assets.xcassets in Resources */,
 				68698DAB1CAA1605002EA1CE /* Main.storyboard in Resources */,
 			);
@@ -496,6 +500,7 @@
 				68698DCC1CAA1605002EA1CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68698DCD1CAA1605002EA1CE /* Build configuration list for PBXNativeTarget "QLPreviewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				68698DCF1CAA1605002EA1CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68698DD01CAA1605002EA1CE /* Build configuration list for PBXNativeTarget "QLPreviewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				68698DD21CAA1605002EA1CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
